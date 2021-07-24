@@ -1663,13 +1663,18 @@ footer .bottom-details .bottom_text {
     position: relative;
     max-width: 112rem;
     min-width: 480px;
-    background: #fff;
+    background: rgb(0, 0, 0);
     margin: 0 auto;
+    text-align: center;
+}
+
+.slider-content>h1 {
+    color: white;
 }
 
 .slider-content .slider-container {
     position: relative;
-    height: 70rem;
+    height: 50rem;
 }
 
 .slider-content .slide-content {
